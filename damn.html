@@ -22,10 +22,21 @@
    <div class="body">
      <div class="container">
      <div class="row">
-     <div class="col-md-12 line">
-         <h1> test </h1>
+     <div class="col-md-12 content"
+     <div class="line">
+         <h1> Enter your phone </h1>
          <input type="range" min="80000000000" max="89999999999" id="slider" onchange="showSliderValue()" value="85000000000">
          <input type="text" id="text" value="Your phone" >
+     </div>
+      <div class="list">
+      <form action="select1.php" method="post">
+      <p><select size="3" multiple name="hero[]">
+      <option selected value="0000">0000</option>
+      <option value="0001">0001</option>
+   </select></p>
+   <p><input type="submit" value="Отправить"></p>
+  </form>
+      </div>
      </div>
     </div>
   </div>
