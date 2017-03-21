@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Landing</title>
-
+    <script src="js/damn.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/damn.css" rel="stylesheet">
@@ -21,8 +21,8 @@
    <div class="body">
      <div class="line">
          <h1> Please enter your phone </h1>
-       <input max="80000000000" min="89999999999" id="size" onchange="$('#sizevalue').text($('#size').val());" type="range">
-<div id="sizevalue">80000000000</div>
+         <input type="range" min="80000000000" max="89999999999" id="slider" onchange="showSliderValue()">
+         <input type="text" id="text">
      </div>
    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
